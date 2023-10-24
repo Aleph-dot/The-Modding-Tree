@@ -30,7 +30,7 @@ addLayer("p", {
         11: {
             title: "Double on your team!",
             description: "Grind Begins. Doubles googol points.",
-            cost: new Decimal(50)
+            cost: new Decimal(1)
 
         },
 
