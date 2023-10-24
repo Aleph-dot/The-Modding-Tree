@@ -24,5 +24,15 @@ addLayer("p", {
     hotkeys: [
         {key: "G", description: "G: Reset for googol points", onPress(){if (canReset(this.layer)) doReset(this.layer)}},
     ],
-    layerShown(){return true}
+    layerShown(){return true},
+
+    upgrades: {
+        11: {
+            title: "Double on your team!",
+            description: "Grind Begins. Doubles googol points.",
+            cost: new Decimal(50)
+
+        },
+
+    },
 })
